@@ -121,7 +121,46 @@ h2{
 	background: #fff;
 	padding: 5px;
 	margin-top: 5px;
+}
 
+#lateral ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 3px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+color: #a1a1a1;
+padding-left: 20px;
+background: #f9f9f9 url(../imagens/marcador.png) no-repeat left;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	margin: 5px;
+	padding: 3px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+input.submit{
+	width: 80px;
+	padding: 5px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
+#cad{
+	width: 80px;
 }
 
 #container-rodape{
