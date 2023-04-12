@@ -30,6 +30,14 @@ body{
 }
 
 /*Navigation bar*/
+a:link, a:visited{
+	color: #b10333;
+	padding: 2px;
+}
+a:hover{
+	color: #e50040;
+}
+
 ul{
 	margin: 0;
 	padding: 0;
@@ -178,7 +186,37 @@ h3{
 }
 .entrevista h3{
 	background: #de003e;
-	
+}
+
+#lista-noticias li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+
+#lista-noticias li a img{
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a{
+	text-decoration: none;
+}
+
+#lista-noticias li a h3{
+	font-size: 0.8em;
+	padding: 0;
+	background: none;
+	color: blue;
+}
+
+#lista-noticias li a p{
+	font-size: 0.6em;
+}
+
+#lista-noticias li:hover{
+	background: #eee;
+	cursor: pointer;
 }
 
 #container-rodape{
