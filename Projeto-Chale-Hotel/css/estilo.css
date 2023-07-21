@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+	background: url(../imagens/bg.png);
+	margin: 15px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+#container{
+	background: #ede9cc  url(../imagens/bg-container.png) top center repeat-y;
+	margin: 0 auto;
+	min-width: 1150px;
+	max-width: 1180px;
+}
+
+#topo{
+	position: relative;
+	background: #dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+}
+
+#area-principal{
+	position: absolute;
+	background: url(../imagens/topo-imagem-principal2.png) no-repeat;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 250px;
+}
+
+#area-menu{
+	position: absolute;
+	background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+	top: 0;
+	right: 0;
+	width: 640px;
+	height: 250px;
+}
+
+#conteudo-menu{
+	margin-left: 80px;
+	margin-right: 15px;
+	padding-top: 15px;
+	position: relative;
+}
+
+#menu-locais{
+	border-bottom: 1px solid red;
+	border-top: 1px solid red;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#menu-locais .locais{
+	float: left;
+	line-height: 1.8em;
+}
+
+#menu{
+	margin-top: 15px;
+}
+
+#conteudo{
+	background: #dbcd87 url(../imagens/bg-container.png) top center repeat-y;;
+}
+
+#textos{
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+#imagens-textos{
+	float: right;
+	right: 0;
+	width: 50%;
+	background: url(../imagens/bg-area-lateral.png) top right repeat-x;
+	padding: 15px 0px;
+}
+
+#rodape{
+	clear: both;
+	padding: 16px;
+	background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+	color: #7d7640;
+}
+
+#beneficios li{
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+}
+
+#beneficios li img{
+	float: left;
+	margin-right: 8px;
+}
+
+#beneficios li p{
+	font-size: 0.8em;
+}
+
+#beneficios li h3{
+	font-size: 1.1em;
+	padding: 5px 0;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+.conteudo2{
+	margin: 0 auto;
+	width: 90%;
+}
+
+.depoimento{
+	width: 226px;
+	height: 164px;
+	position: absolute;
+	margin-left: 200px;
+	/*float: right;*/
+}
+
+ul#navegacao{
+	/*float: left;*/
+	position: absolute;
+}
+
+ul#navegacao a{
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	line-height: 25px;
+}
+
+ul#navegacao a:hover{
+	background: yellow;
+}
+
+a.reserva{
+	text-transform: uppercase;
+	padding: 5px 10px;
+	color: yellow;
+	background: green;
+	float: right;
+}
+
+.logo a{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	background: url(../imagens/logo.png) no-repeat;
+	width: 150px;
+	text-indent: -3000px;
+}
+
+h2{
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+p{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
